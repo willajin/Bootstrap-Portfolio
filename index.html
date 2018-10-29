@@ -2,18 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=s, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Willa Jin | About  Me</title>
 
     <!-- Bootstrap -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Rufina|Scheherazade" rel="stylesheet">
+
+    <!-- Style sheet -->
+    <link rel="stylesheet" href="assets/css/style.css" media="screen">
 </head>
 <body>
+    <!-- Header container -->
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="index.html">Willa Jin</a>
+            <a class="navbar-brand" href="index.html" id="name-header">Willa Jin</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -25,9 +31,23 @@
               </div>
             </div>
           </nav>
-
-
-
-    </div> <!-- End container div -->
+        </div> <!-- End header container div -->
+    
+    <!-- Content container -->
+    <div class="container" id="content-container">
+        <div class="row">
+            <!-- Header -->
+            <div class="col-md-8 offset-md-2">
+                <h3 class="content-header">About Me</h3>
+                <hr>
+                <!-- Profile image -->
+                <img src="assets/images/profile_image.jpg" class="rounded float-left" alt="Willa Jin" />
+                <!-- Biography -->
+                <p class="content">Based in southern California, Willa currently works as a Data Manager at Johnson & Johnson Medical Devices in Irvine, CA. 
+                    She graduated from the University of Southern California in 2016 with a <em>Bachelor of Science</em> in Biomedical Engineering.</p>
+            
+                </div> <!-- End column -->
+            </div> <!--End row -->
+        </div> <!-- End content container div -->
 </body>
 </html>

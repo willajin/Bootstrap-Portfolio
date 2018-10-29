@@ -1,0 +1,39 @@
+.container {
+    padding:20px;
+}
+
+/* name header */
+#name-header {
+    padding-right:550px;
+    font-family: 'Scheherazade', serif;
+    font-size:48px;
+    letter-spacing:2px;
+    text-transform:uppercase;
+}
+
+#content-container {
+    background-color:lightgray;
+}
+
+.col-md-8 {
+    padding:30px;
+    background-color:white;
+}
+
+/* profile image */
+.rounded {
+    width:200px;
+    height:200px;
+    margin-right:20px;
+}
+
+.content-header {
+    font-family: 'Scheherazade', serif;
+    letter-spacing:1px;
+    text-transform:uppercase;
+    font-size:28px;
+}
+
+.content {
+    color:gray;
+}
