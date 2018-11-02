@@ -1,18 +1,27 @@
+/* ALL CONTENT */
 .container {
     padding:20px;
 }
 
 /* name header */
 #name-header {
-    padding-right:550px;
+    padding-left:20px;
+    padding-right:520px;
     font-family: 'Scheherazade', serif;
     font-size:48px;
     letter-spacing:2px;
     text-transform:uppercase;
+    color:#4d4d4d;
+}
+
+.navbar {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing:2px;
 }
 
 #content-container {
-    background-color:lightgray;
+    background-color:white;
+    border:5px solid lightgray;
 }
 
 .col-md-8 {
@@ -20,6 +29,42 @@
     background-color:white;
 }
 
+.content-header {
+    font-family: 'Scheherazade', serif;
+    letter-spacing:1px;
+    text-transform:uppercase;
+    font-size:32px;
+    color:#4d4d4d;
+}
+
+.content {
+    color:gray;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* sticky footer */
+html {
+    position:relative;
+    min-height:100%;
+}
+
+body {
+    margin-bottom:60px;
+}
+
+.footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:40px;
+    line-height:40px;
+    text-align:center;
+    font-family: 'Scheherazade', serif;
+    background-color:#f5f5f5;
+    color:#4d4d4d;
+}
+
+/* ABOUT ME PAGE */
 /* profile image */
 .rounded {
     width:200px;
@@ -27,13 +72,23 @@
     margin-right:20px;
 }
 
-.content-header {
-    font-family: 'Scheherazade', serif;
-    letter-spacing:1px;
-    text-transform:uppercase;
-    font-size:28px;
+/* PORTFOLIO PAGE */
+.portfolio-row {
+    padding:20px;
 }
 
-.content {
-    color:gray;
+.portfolio-box-text {
+    text-decoration:none;
+    font-family: 'Raleway', sans-serif;
+    color:#4d4d4d;
+}
+
+/* CONTACT PAGE */
+.form-group {
+    font-family: 'Raleway', sans-serif;
+}
+
+#submitbutton {
+    font-family: 'Raleway', sans-serif;
+    padding:5px 10px 5px 10px;
 }
