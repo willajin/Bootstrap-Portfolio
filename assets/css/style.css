@@ -83,6 +83,12 @@ body {
     color:#4d4d4d;
 }
 
+.portfolio-box-text:hover {
+    text-decoration:none;
+    background-color:#4d4d4d;
+    color:white;
+}
+
 /* CONTACT PAGE */
 .form-group {
     font-family: 'Raleway', sans-serif;
@@ -91,4 +97,11 @@ body {
 #submitbutton {
     font-family: 'Raleway', sans-serif;
     padding:5px 10px 5px 10px;
+
+}
+
+#submitbutton:hover {
+    background-color:#4d4d4d;
+    border:2px solid #4d4d4d;
+    color:white;
 }
